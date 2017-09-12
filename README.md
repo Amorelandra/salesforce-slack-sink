@@ -1,5 +1,5 @@
 # salesforce-slack-sink
-Receive tweets to Slack via Salesforce Platform Events
+Receive tweets in Slack via Salesforce Platform Events
 
 NOTE: This project requires a [Slack app](https://apps.slack.com/).
 
