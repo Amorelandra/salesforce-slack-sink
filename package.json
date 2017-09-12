@@ -1,0 +1,24 @@
+{
+  "name": "salesforce-slack-sink",
+  "version": "1.0.0",
+  "description": "Consume Salesforce Tweet events and publish them to Slack",
+  "main": "index.js",
+  "dependencies": {
+    "faye": "^1.2.4",
+    "slack-node": "^0.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Emily Rose <erose@salesforce.com>",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amorelandra/salesforce-slack-sink.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Amorelandra/salesforce-slack-sink/issues"
+  },
+  "homepage": "https://github.com/Amorelandra/salesforce-slack-sink#readme"
+}
