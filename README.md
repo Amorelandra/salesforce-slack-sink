@@ -21,6 +21,9 @@ You will need the following environment variables:
 ### Slack
 1. __SLACK_WEBHOOK_URL__ -- The URL for your Slack app webhook
 
+### Node.js
+1. __NODE_ENV__ -- Use `production` for production, or `sandbox` for scratch orgs
+
 If you're deploying with Heroku, just throw these variables into an .env file in the project base directory and use `heroku local` to launch the app.
 
 Here's a template to copy/paste (or you can rename `.exampleenv` in this project to `.env`):
@@ -31,6 +34,7 @@ SALESFORCE_USERNAME=
 SALESFORCE_PASSWORD=
 SALESFORCE_SECURITY_TOKEN=
 SLACK_WEBHOOK_URL=
+NODE_ENV=
 ```
 ## Run
 1. Type `npm start`
